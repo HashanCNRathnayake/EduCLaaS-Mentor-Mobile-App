@@ -1,0 +1,20 @@
+# Upload only the mobile app when eas build is run from workspace root
+*
+!copilot-mobile/
+!copilot-mobile/**
+
+# Exclude local artifacts from mobile app upload
+copilot-mobile/node_modules/
+copilot-mobile/.expo/
+copilot-mobile/.expo-shared/
+copilot-mobile/.git/
+copilot-mobile/android/
+copilot-mobile/ios/
+copilot-mobile/dist/
+copilot-mobile/web-build/
+
+# Ensure core app files are always included
+!copilot-mobile/package.json
+!copilot-mobile/app.json
+!copilot-mobile/package-lock.json
+!copilot-mobile/yarn.lock

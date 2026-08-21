@@ -1,0 +1,29 @@
+# Keep EAS upload clean and reproducible
+node_modules
+.expo
+.expo-shared
+.git
+
+# Local/editor artifacts
+.vscode
+.DS_Store
+Thumbs.db
+
+# Build outputs
+android
+ios
+dist
+web-build
+coverage
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tmp
+*.swp
+
+# Ensure core app files are always included when building from inside this folder
+!package.json
+!app.json
